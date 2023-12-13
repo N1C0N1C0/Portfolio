@@ -1,12 +1,5 @@
 /* Global */
 :root {
-    /* App Colors */
-    --color-primary: var(--color-black);
-    --color-primary-variant: var(--color-gray);
-    --color-accent: var(--color-blue);
-    --color-accent-variant: var(--color-orange);
-    --color-text: var(--color-white);
-
     /* Colors */
     --color-white : #ffffff;
     --color-black : #050a13;
@@ -34,15 +27,11 @@ ul {
 
 a {
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-black);
 }
 
 button {
     background-color: transparent;
     outline: 0;
     border: 0;
-}
-
-button:focus {
-    outline: 1px solid var(--color-accent);
 }
