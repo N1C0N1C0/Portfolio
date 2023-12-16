@@ -273,10 +273,4 @@ button:focus {
 .bar__metadata {
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-primary-variant);
-}
-
-.bar__value {
-    height: 3px;
-    background-color: var(--color-accent);
 }

@@ -277,6 +277,5 @@ button:focus {
 }
 
 .bar__value {
-    height: 3px;
     background-color: var(--color-accent);
 }
