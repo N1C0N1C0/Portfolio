@@ -69,7 +69,6 @@ button:focus {
 
 .max-container {
     max-width: var(--size-max-width);
-    margin: auto;
 }
 
 /* Header */

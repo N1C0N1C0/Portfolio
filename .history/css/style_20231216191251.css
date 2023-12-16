@@ -13,9 +13,6 @@
     --color-blue : #03e8f9;
     --color-orange : #fd6413;
     --color-gray : #1b1e26;
-
-    /* Size */
-    --size-max-width : 1200px;
 }
 
 * {
@@ -65,11 +62,6 @@ button:focus {
 .description {
     font-size: 1.5rem;
     margin: 0.5rem 0;
-}
-
-.max-container {
-    max-width: var(--size-max-width);
-    margin: auto;
 }
 
 /* Header */
