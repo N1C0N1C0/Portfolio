@@ -473,7 +473,6 @@ button:focus {
         flex-direction: column;
         text-align: center;
         padding: 1rem 4rem;
-        gap: 1rem;
     }
 
     .header__nav {
