@@ -374,9 +374,5 @@ button:focus {
     display: block;
     position: relative;
     left: 50%;
-    transform: translateX(-50%);
-    margin: 0.5rem 0;
-    width: 70px;
-    height: 2px;
-    background-color: var(--color-accent);
+    width: 50px;
 }
