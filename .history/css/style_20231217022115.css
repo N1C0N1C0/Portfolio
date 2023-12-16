@@ -393,10 +393,6 @@ button:focus {
     margin-bottom: 2rem;
 }
 
-.testimonial:nth-child(even) .testimonial__img {
-    order: 1;
-}
-
 .testimonial__img {
     width: 150px;
     height: 150px;
