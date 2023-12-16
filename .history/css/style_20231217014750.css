@@ -82,7 +82,6 @@ button:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
 }
 
 .header__logo {
@@ -303,7 +302,6 @@ button:focus {
     border-radius: 4px;
     border: 1px solid var(--color-accent);
     cursor: pointer;
-    white-space: nowrap;
 }
 
 .category--selected {
@@ -322,7 +320,7 @@ button:focus {
     border-radius: 100%;
     background-color: var(--color-accent-variant);
     color: var(--color-text);
-    transition: all 250ms ease-in;
+    transition: all 300ms ease-in;
 }
 
 .category--selected .category__count,

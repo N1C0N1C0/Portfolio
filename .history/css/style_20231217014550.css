@@ -82,7 +82,6 @@ button:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
 }
 
 .header__logo {
@@ -303,16 +302,14 @@ button:focus {
     border-radius: 4px;
     border: 1px solid var(--color-accent);
     cursor: pointer;
-    white-space: nowrap;
 }
 
-.category--selected {
+.category__selected {
     background-color: var(--color-accent);
     color: var(--color-primary);
 }
 
 .category__count {
-    opacity: 0;
     position: absolute;
     top: -20px;
     right: 16px;
@@ -322,11 +319,4 @@ button:focus {
     border-radius: 100%;
     background-color: var(--color-accent-variant);
     color: var(--color-text);
-    transition: all 250ms ease-in;
-}
-
-.category--selected .category__count,
-.category:hover .category__count {
-    opacity: 1;
-    top: 0;
 }
