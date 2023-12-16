@@ -131,7 +131,6 @@ button:focus {
     margin: 2rem;
     padding: 0.5rem 1rem;
     font-weight: bold;
-    border-radius: 4px;
 }
 
 .home__contact:hover {

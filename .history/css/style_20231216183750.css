@@ -125,17 +125,6 @@ button:focus {
 }
 
 .home__contact {
-    display: inline-block;
     background-color: var(--color-accent);
-    color: var(--color-black);
-    margin: 2rem;
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-.home__contact:hover {
-    background-color: transparent;
-    color: var(--color-text);
-    outline: 2px solid var(--color-accent);
+    padding: 0.5rem;
 }
