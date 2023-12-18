@@ -15,8 +15,7 @@ document.addEventListener('scroll', () => {
 
 /**
  * Home 섹션을 아래로 스크롤시 투명하게 처리함
- * offsetHeight - 정수의 높이 값
- * style.opacity - css의 투명도
+ *
  */
 const home = document.querySelector('.home__container');
 const homeHeight = home.offsetHeight;
