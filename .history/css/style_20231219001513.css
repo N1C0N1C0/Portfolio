@@ -540,4 +540,9 @@ button:focus {
         right: 1.5rem;
     }
 
+    .arrow__arrow__container {
+        opacity : 1;
+    }
+
+
 }

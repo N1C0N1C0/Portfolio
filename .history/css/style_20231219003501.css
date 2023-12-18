@@ -537,7 +537,7 @@ button:focus {
         width: 3rem;
         height: 3rem;
         bottom: 1.5rem;
-        right: 1.5rem;
+        right: 1.5rem;cursor: none;
     }
 
 }

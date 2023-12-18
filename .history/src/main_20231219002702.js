@@ -31,4 +31,4 @@ const arrow = document.querySelector('.arrow__container');
 document.addEventListener('scroll', () => {
     arrow.style.opacity = window.scrollY / homeHeight;
     
-});
+})

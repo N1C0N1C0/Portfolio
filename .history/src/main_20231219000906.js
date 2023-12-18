@@ -27,8 +27,12 @@ document.addEventListener('scroll', () => {
 /**
  * Arrow 투명하게 처리
  */
-const arrow = document.querySelector('.arrow__container');
+const arrow = document.querySelector('arrow-up');
 document.addEventListener('scroll', () => {
-    arrow.style.opacity = window.scrollY / homeHeight;
+    if(window.scrollY > homeHeight) {
+        arrow.style.opacity = 1;
+    } else {
+        arrow.style.opacity = 0;
+    }
     
-});
+})

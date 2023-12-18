@@ -540,4 +540,8 @@ button:focus {
         right: 1.5rem;
     }
 
+    .arrow__container {
+        pointer-events : none;
+    }
+
 }

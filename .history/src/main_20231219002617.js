@@ -29,6 +29,7 @@ document.addEventListener('scroll', () => {
  */
 const arrow = document.querySelector('.arrow__container');
 document.addEventListener('scroll', () => {
+    console.log(window.scrollY / homeHeight);
     arrow.style.opacity = window.scrollY / homeHeight;
     
-});
+})
