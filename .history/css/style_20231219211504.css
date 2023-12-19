@@ -124,7 +124,6 @@ button:focus {
 .header__menu__item {
     display: block;
     padding: 8px 16px;
-    border: 1px solid transparent;
 }
 
 .header__menu__item:hover {
@@ -494,7 +493,7 @@ button:focus {
         display: none;
         flex-direction: column;
         text-align: center;
-        margin: 1rem 4rem;
+        padding: 1rem 4rem;
         gap: 1rem;
     }
 
