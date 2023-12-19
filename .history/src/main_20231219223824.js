@@ -1,5 +1,4 @@
-'use strict';
-
+'use strict'
 /**
  * Header에 페이지 아래로 스크롤시 다크 스타일로 적용
  * getBoundingClientRect() - 길이를 구함
