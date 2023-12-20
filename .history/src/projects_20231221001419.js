@@ -27,7 +27,5 @@ categories.addEventListener('click', (e) => {
             project.style.display = 'none';
         }
     });
-    setTimeout(() => {
-        projectsContainer.classList.remove('anim-out');
-    },250)
+    
 })
