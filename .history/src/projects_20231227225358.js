@@ -16,10 +16,10 @@ categories.addEventListener('click', (e) => {
 
 });
 
-function handleActiveSelection(target) {
+function handleActiveSelection(e) {
     const active = document.querySelector('.category--selected');
     active.classList.remove('category--selected');
-    target.classList.add('category--selected');
+    e.target.classList.add('category--selected');
 }
 
 function filterProject(filter) {

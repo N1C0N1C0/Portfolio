@@ -11,15 +11,15 @@ categories.addEventListener('click', (e) => {
     if(filter == null) {
         return;
     }
-    handleActiveSelection(e.target);
-    filterProject(filter);
+    handleActiveSelection(event.target);
+    
 
 });
 
-function handleActiveSelection(target) {
+function handleActiveSelection(e) {
     const active = document.querySelector('.category--selected');
     active.classList.remove('category--selected');
-    target.classList.add('category--selected');
+    e.target.classList.add('category--selected');
 }
 
 function filterProject(filter) {

@@ -11,18 +11,8 @@ categories.addEventListener('click', (e) => {
     if(filter == null) {
         return;
     }
-    handleActiveSelection(e.target);
-    filterProject(filter);
 
-});
-
-function handleActiveSelection(target) {
-    const active = document.querySelector('.category--selected');
-    active.classList.remove('category--selected');
-    target.classList.add('category--selected');
-}
-
-function filterProject(filter) {
+    // 프로젝트 필터링
     projectsContainer.classList.add('anim-out');
     projects.forEach(project => {
         console.log(project);
@@ -35,4 +25,10 @@ function filterProject(filter) {
     setTimeout(() => {
         projectsContainer.classList.remove('anim-out');
     },250)
+});
+
+function handleActiveSelection(e) {
+    const active = document.querySelector('.category--selected');
+    active.classList.remove('category--selected');
+    e.target.classList.add('category--selected');
 }
